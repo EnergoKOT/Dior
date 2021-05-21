@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Меню</title>
+    <style>
+        </style>
+        </head>
+        <body>
+            <script>
+                var denn =new Date();
+                var dennNedeli = denn.getDay()
+                switch(dennNedeli)
+                {
+                    case 1:
+                        document.write("понедельник")
+                        break;
+                        case 2:
+                        document.write("вторник")
+                        break;
+                        case 3:
+                        document.write("среда")
+                        break;
+                        case 4:
+                        document.write("четверг")
+                        break;
+                    case 5:
+                        document.write("пятница");
+                        break;
+                        case 6:
+                            document.write("суббота");
+                            break;
+                            case 0:
+                                document.write("воскресенье");
+                                break;
+                                default:
+                                    document.write("новая неделя");
+                }
+               
+                </script>
+                </body>
+                </html>

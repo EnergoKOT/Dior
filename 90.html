@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Erorr</title>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+    <style>
+        .parallax {
+            height: 1000px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            perspective: 1px;
+            font-size: 200%;
+        }
+        .parallax__layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 1000px 0;
+        }
+        .parallax__layer--base {
+            transform: translateZ(0);
+        }
+        .parallax__layer--back {
+            transform: translateZ(-1px);
+        }
+        .title {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: yellowgreen;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="parallax">
+            <div class="parallax__layer parallax__layer--back">
+                 <div class="title">Эфект Параллакса</div>
+                 </div>
+                 <div class="parallax__layer parallax__layer--base">
+                    <div class="title">Эфект Параллакса</div>
+                    </div>
+                    </div>
+    </body>
+    </html>
