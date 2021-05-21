@@ -1,0 +1,43 @@
+body {
+    background: white;
+    color: black;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+}
+#header {
+    background: chocolate;
+    width: 100%;
+    height: 50px;
+}
+#container {
+    background: crimson;
+    margin: auto auto;
+    text-align: center;
+    width: 80%;
+    height: 350px;
+}
+#navigation {
+    background: darkblue;
+    width: 100%;
+    height: 35px;
+}
+#sidebar {
+    background: darkmagenta;
+    float: left;
+    width: 20%;
+    height: 300px;
+}
+#content {
+    background: rgb(143, 141, 141);
+    float: right;
+    width: 80%;
+    height: 300px;
+}
+#clear {
+    clear: both;
+}
+#footer {
+    background: skyblue;
+    width: 100%;
+    height: 45px;
+}

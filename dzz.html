@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Таблицы</title>
+<style></style>
+</head>
+    <style>
+        body{margin: 0px;}
+    @keyframes bouncing{
+        35%, 55%, 75%, 90%{
+            animation-timing-function: ease-out;bottom: 0;}
+            0%{
+                bottom: 200px;left: 0;
+                animation-timing-function: ease-in;
+            }
+            45%{
+                bottom: 80px;animation-timing-function: ease-in;
+            }
+            65%{
+                bottom: 60%;animation-timing-function: ease-in;
+            }
+            80%{
+                bottom: 40px;animation-timing-function: ease-in;
+            }
+            95%{
+                bottom: 20px;animation-timing-function: ease-in;
+            }
+            100%{
+               animation-timing-function: ease-in;
+               left: 150px;bottom: 0;
+            }}
+            #wrapper{
+                margin: 0px auto;
+                width: 220px;
+                height: 220px;
+                border: 1px solid red;
+                position: relative;
+            }
+            #ball{
+                background: blue;
+                width: 20px;
+                height: 20px;
+                border-radius: 10px;
+                position: absolute;
+                animation: bouncing 6s infinite;
+            }
+            </style>
+            </head>
+            <body>
+                <div id="wrapper">
+                    <div id="ball"></div>
+                </div>
+                </body>
+                </html>
